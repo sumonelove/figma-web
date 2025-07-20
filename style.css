@@ -1,0 +1,358 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(125deg,#d3ebe2,white,#d3ebe2);
+    overflow-x: hidden;
+    
+ } 
+/* body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+} */
+
+
+.navbar{
+    width: 1180px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.logo{
+    font-size: 50px;
+    color: #54BD95;
+    
+
+
+}
+.navbarlist{
+    /* width: 408px; */
+    /* height: 22px; */
+    align-items: center;
+
+}
+.navbarlist > ul{
+    display: flex;
+    list-style: none;
+    margin-left: 290px;
+    /* background-color: antiquewhite; */
+
+}
+.allele{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #a6a6a6;
+    
+}
+.home{
+    font-size: 18px;
+    color: #000000;
+    
+}
+.btnlist{
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.signupbtn{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: #54BD95;
+    font-size: 16px;
+    color: #F8F8FA;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.loginbtn{
+    width: 80px;
+    height: 19px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+    
+
+
+
+
+
+
+.herosectionfirst{
+width: 1292px;
+height: 578px;
+margin-top: 130px;
+margin-left: 130px;
+display: flex;
+/* background: black; */
+/* margin: 0; */
+
+}
+
+
+
+.herosectionfirst .first .firstbigpara{
+    width: 555px;
+    height: 270px;
+    /* background-color: #54BD95; */
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 90px;
+    /* margin-left: 25px; */
+    /* background-color: pink; */
+    
+}
+
+.herosectionfirst .first .line{
+    width: 490px;
+    height: 35px;
+    /* margin: none; */
+    background-image: url(./photo/Vector\ 32.svg);
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+
+.herosectionfirst .first .secondsecondpara
+{
+    height: 90px;
+    width: 461px;
+    font-size: 18px;
+    margin-top: 60px;
+    line-height: 30px;
+    /* margin-left: 25px; */
+    
+
+}
+
+
+.herosectionfirst .first .herobtns{
+    display: flex;
+    align-items: center;
+
+}
+
+.herosectionfirst .first .herobtns .btn1{
+    width: 165px;
+    height: 62px;
+    background-color: #54BD95;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.herosectionfirst .first .herobtns .icons{
+    height: 40px;
+    width: 40px;
+
+}
+
+.herosectionfirst .first .herobtns .btn22{
+    margin-left: 40px;
+}
+
+.herosectionfirst .first .herobtns .btn22 .btn2{
+    font-size: 18px;
+    /* margin-left: 10px; */
+    background: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.photo{
+    width: 410px;
+    height: 526px;
+    background-image: url(./photo/Frame\ 46.svg);
+    margin-left: 200px;
+}
+
+.photoleftupele{
+    width: 262px;
+    height: 78px;
+    display: flex;
+    
+    /* align-items: center; */
+    background-color: #ffffff;
+    position: relative;
+    left: 720px;
+    bottom: 550px;
+    border-radius: 10px;
+    /* margin-bottom: 7800px; */
+}
+
+.photoleftupele .firstele{
+    margin-left: 10px;
+}
+
+.photoleftupele .firstele >input{
+    width: 94px;
+    height: 18px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    border: none;
+}
+
+.photoleftupele .firstele >p{
+    width: 64px;
+    height: 28px;
+    /* background-color: pink; */
+}
+
+.photoleftupele >button{
+    width: 64px;
+    height: 28px;
+    margin-left: 70px;
+    margin-top: 25px;
+    border-radius: 40px;
+    background-color: #52BD94;
+    border: none;
+}
+
+.photoleftdownele{
+    width: 114px;
+    height: 43px;
+    position: relative;
+    left: 824px;
+    bottom: 230px;
+    /* background: #a6a6a6; */
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* background-color: red; */
+    /* padding-top: 10px; */
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+}
+
+/* .photoleftdownele .eleone{
+    margin-top: 10px;
+    margin-left: 10px;
+} */
+
+
+
+  .photoleftdownele .eleone .firstele{
+    color: #A9A7B6;
+    font-size: 12px;
+    margin-top: 8px;
+    /* background-color: pink; */
+    margin: 0px;
+    width: 73px;
+    height: 15px;
+    
+} 
+
+
+.photoleftdownele .eleone .secele{
+    color: #000000;
+    font-size: 16px;
+    /* background-color: pink; */
+    /* margin-top: 10px; */
+    width: 65px;
+    height: 19px;
+    margin-top: 8px;
+    
+}
+
+.photoleftdownele .bar{
+    display: flex;
+    margin-left: 15px;
+    align-items: end;
+    /* background-color: red; */
+}
+
+.photoleftdownele .bar .first{
+    width: 2px;
+    height: 5px;
+    background-color: #52BD94;
+}
+
+.photoleftdownele .bar .second{
+    width: 1.5px;
+    height: 14px;
+    margin-left: 3px;
+    background-color: #52BD94;
+}
+
+.photoleftdownele .bar .third{
+    width: 1.5px;
+    height: 9px;
+    background-color: #52BD94;
+    margin-left: 3px;
+}
+
+.creditcard{
+    /* background-color: red; */
+    /* width: 188px; */
+    /* height: 220px; */
+    /* background-image: url(./Frame\ 45card.png); */
+    background: transparent;
+    position: relative;
+    left: 1200px;
+    bottom: 450px;
+
+}
+
+
+.footer{
+    width: 1076px;
+    height: 146px;
+    /* align-items: center; */
+    /* background-color: red; */
+    margin-left: 250px;
+    position: relative;
+    bottom: 150px;
+    
+}
+
+.footer >p{
+    width: 720px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+
+.footer .list >ul{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+
+
+}
+
+.footer .list >ul .l{
+    margin-left: 70px;
+}
+
+.footer .list >ul >li{
+    color: #a6a6a6;
+}
+
+.tick{
+    position: relative;
+    left: 837px;
+    bottom: 560px;
+    background-image: url(./photo/Rectangletick\ 34.svg);
+    width: 60px;
+    height: 60px;
+    
+}
+
+  
+
